@@ -1,0 +1,16 @@
+:root {
+    --seed--color-ui-primary: #C21E3A;
+    --seed--color-ui-secondary: #C4B454;
+    --seed--color-ui-tertiary: #000000;
+    --seed--color-ui-neutral: #d2d1d1;
+    --seed--color-feedback-success: #51af45;
+    --seed--color-feedback-warning: #fbbc0f;
+    --seed--color-feedback-error: #e6213c;
+    --seed--color-feedback-info: #1c9797;
+    --seed--font-size: 16px;
+    --seed--font-size-scale: 1.2;
+    --seed--font-body: Roboto;
+    --seed--font-heading: Roboto;
+    --seed--spacing: 8px;
+    --seed--shape-radius: 4px;
+}

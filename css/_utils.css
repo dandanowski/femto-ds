@@ -1,0 +1,39 @@
+@function --chgLight(--color <color>, --l type(<number> | <percentage>): 50% ) returns <color> {
+    result: oklch(from var(--color) var(--l) c h / 1);
+}
+
+@function --scaleFontSize(--size, --step:0, --scale: 1.25 ) {
+    result: round(calc(var(--size) * pow(var(--scale), var(--step))), 1px);
+}
+
+:root {
+    /* Utility Variables */
+    /* Color ramp */
+    --util--color-ramp-s000: 0;
+    --util--color-ramp-s010: 0.1;
+    --util--color-ramp-s020: 0.2;
+    --util--color-ramp-s030: 0.3;
+    --util--color-ramp-s040: 0.4;
+    --util--color-ramp-s050: 0.5;
+    --util--color-ramp-s060: 0.6;
+    --util--color-ramp-s070: 0.7;
+    --util--color-ramp-s080: 0.8;
+    --util--color-ramp-s090: 0.9;
+    --util--color-ramp-s095: 0.95;
+    --util--color-ramp-s099: 0.99;
+    --util--color-ramp-s100: 1;
+    /* Font weights */
+    --util--font-weight-thin: 100;
+    --util--font-weight-extra-light: 200;
+    --util--font-weight-light: 300;
+    --util--font-weight-normal: 400;
+    --util--font-weight-regular: 400;
+    --util--font-weight-medium: 500;
+    --util--font-weight-demi-bold: 600;
+    --util--font-weight-semi-bold: 600;
+    --util--font-weight-bold: 700;
+    --util--font-weight-extra-bold: 800;
+    --util--font-weight-black: 900;
+    --util--font-weight-extra-black: 950;
+    --util--font-weight-ultra-black: 950;
+}

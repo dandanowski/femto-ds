@@ -1,0 +1,61 @@
+
+/* Typography */
+.typo-display-lg {
+    font: var(--sem--typo-display-lg);
+}
+
+.typo-display-md {
+    font: var(--sem--typo-display-md);
+}
+
+.typo-display-sm {
+    font: var(--sem--typo-display-sm);
+}
+
+.typo-headline-lg {
+    font: var(--sem--typo-headline-lg);
+}
+
+.typo-headline-md {
+    font: var(--sem--typo-headline-md);
+}
+
+.typo-headline-sm {
+    font: var(--sem--typo-headline-sm);
+}
+
+.typo-title-lg {
+    font: var(--sem--typo-title-lg);
+}
+
+.typo-title-md {
+    font: var(--sem--typo-title-md);
+}
+
+.typo-title-sm {
+    font: var(--sem--typo-title-sm);
+}
+
+.typo-body-lg {
+    font: var(--sem--typo-body-lg);
+}
+
+.typo-body-md {
+    font: var(--sem--typo-body-md);
+}
+
+.typo-body-sm {
+    font: var(--sem--typo-body-sm);
+}
+
+.typo-label-lg {
+    font: var(--sem--typo-label-lg);
+}
+
+.typo-label-md {
+    font: var(--sem--typo-label-md);
+}
+
+.typo-label-sm {
+    font: var(--sem--typo-label-sm);
+}

@@ -1,0 +1,102 @@
+@layer theme.utils, theme.seed, theme.core, theme.semantic, theme.component;
+
+@import "./_utils.css" layer(theme.utils);
+/* @import "./theme-cycloid.css" layer(theme.seed); */
+@import "./theme-northwest-vipers.css" layer(theme.seed);
+/* @import "./theme-uk-roadsigns.css" layer(theme.seed); */
+@import "./core.css" layer(theme.core);
+@import "./semantic.css" layer(theme.semantic);
+@import "./defs-colors.css" layer(theme.semantic);
+@import "./defs-typography.css" layer(theme.semantic);
+
+:root {
+    --docs-page-width: 1200px;
+}
+
+html {
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page {
+    max-width: var(--docs-page-width);
+    margin: 0 auto;
+}
+
+.page-title {
+    font: var(--sem--typo-display-lg);
+}
+
+details {
+    /* display: flex;
+    flex-direction: row;
+    gap: 1rem; */
+    margin-bottom: 1rem;
+    padding: 1rem 2rem 0 ;
+    border: 1px solid var(--sem--color-outline);
+    border-radius: 4px;
+    summary {
+        /* min-width: 120px; */
+        padding: 0 0 1rem 0;
+        cursor: pointer;
+    }
+}
+
+/* article {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+} */
+
+/* Swatches */
+.swatch-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-bottom: 3rem;
+}
+
+.swatch {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 40px;
+    box-sizing: border-box;
+}
+
+.swatch--sample {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    min-height: 60px;
+    padding: 0.5rem;
+    border: 1px solid var(--sem--color-outline-variant);
+    border-radius: 4px;
+}
+
+.swatch--name {
+    font: var(--sem--typo-label-sm);
+}
+
+.swatch-grid--typography {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.swatch-grid--color {
+    .swatch {
+        width: 40px;
+        transition: width 0.2s ease-in-out;
+        .swatch--name {
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+        }
+    }
+
+    .swatch:hover {
+        width: 160px;
+        .swatch--name {
+            opacity: 1;
+        }
+    }
+}

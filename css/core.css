@@ -1,0 +1,134 @@
+:root {
+    /** Colors ----------------------------------------------------------------------- */
+
+    /* Primary */
+    --core--color-ui-primary-p000: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s000));
+    --core--color-ui-primary-p010: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s010));
+    --core--color-ui-primary-p020: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s020));
+    --core--color-ui-primary-p030: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s030));
+    --core--color-ui-primary-p040: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s040));
+    --core--color-ui-primary-p050: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s050));
+    --core--color-ui-primary-p060: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s060));
+    --core--color-ui-primary-p070: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s070));
+    --core--color-ui-primary-p080: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s080));
+    --core--color-ui-primary-p090: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s090));
+    --core--color-ui-primary-p095: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s095));
+    --core--color-ui-primary-p099: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s099));
+    --core--color-ui-primary-p100: --chgLight(var(--seed--color-ui-primary), var(--util--color-ramp-s100));
+    /* Secondary */
+    --core--color-ui-secondary-s000: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s000));
+    --core--color-ui-secondary-s010: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s010));
+    --core--color-ui-secondary-s020: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s020));
+    --core--color-ui-secondary-s030: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s030));
+    --core--color-ui-secondary-s040: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s040));
+    --core--color-ui-secondary-s050: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s050));
+    --core--color-ui-secondary-s060: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s060));
+    --core--color-ui-secondary-s070: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s070));
+    --core--color-ui-secondary-s080: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s080));
+    --core--color-ui-secondary-s090: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s090));
+    --core--color-ui-secondary-s095: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s095));
+    --core--color-ui-secondary-s099: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s099));
+    --core--color-ui-secondary-s100: --chgLight(var(--seed--color-ui-secondary), var(--util--color-ramp-s100));
+    /* Tertiary */
+    --core--color-ui-tertiary-t000: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s000));
+    --core--color-ui-tertiary-t010: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s010));
+    --core--color-ui-tertiary-t020: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s020));
+    --core--color-ui-tertiary-t030: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s030));
+    --core--color-ui-tertiary-t040: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s040));
+    --core--color-ui-tertiary-t050: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s050));
+    --core--color-ui-tertiary-t060: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s060));
+    --core--color-ui-tertiary-t070: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s070));
+    --core--color-ui-tertiary-t080: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s080));
+    --core--color-ui-tertiary-t090: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s090));
+    --core--color-ui-tertiary-t095: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s095));
+    --core--color-ui-tertiary-t099: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s099));
+    --core--color-ui-tertiary-t100: --chgLight(var(--seed--color-ui-tertiary), var(--util--color-ramp-s100));
+    /* Neutral */
+    --core--color-ui-neutral-n000: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s000));
+    --core--color-ui-neutral-n010: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s010));
+    --core--color-ui-neutral-n020: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s020));
+    --core--color-ui-neutral-n030: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s030));
+    --core--color-ui-neutral-n040: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s040));
+    --core--color-ui-neutral-n050: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s050));
+    --core--color-ui-neutral-n060: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s060));
+    --core--color-ui-neutral-n070: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s070));
+    --core--color-ui-neutral-n080: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s080));
+    --core--color-ui-neutral-n090: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s090));
+    --core--color-ui-neutral-n095: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s095));
+    --core--color-ui-neutral-n099: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s099));
+    --core--color-ui-neutral-n100: --chgLight(var(--seed--color-ui-neutral), var(--util--color-ramp-s100));
+    /* Feedback */
+    --core--color-feedback-success-s000: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s000));
+    --core--color-feedback-success-s010: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s010));
+    --core--color-feedback-success-s020: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s020));
+    --core--color-feedback-success-s030: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s030));
+    --core--color-feedback-success-s040: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s040));
+    --core--color-feedback-success-s050: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s050));
+    --core--color-feedback-success-s060: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s060));
+    --core--color-feedback-success-s070: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s070));
+    --core--color-feedback-success-s080: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s080));
+    --core--color-feedback-success-s090: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s090));
+    --core--color-feedback-success-s095: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s095));
+    --core--color-feedback-success-s099: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s099));
+    --core--color-feedback-success-s100: --chgLight(var(--seed--color-feedback-success), var(--util--color-ramp-s100));
+    /* Warning */
+    --core--color-feedback-warning-w000: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s000));
+    --core--color-feedback-warning-w010: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s010));
+    --core--color-feedback-warning-w020: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s020));
+    --core--color-feedback-warning-w030: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s030));
+    --core--color-feedback-warning-w040: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s040));
+    --core--color-feedback-warning-w050: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s050));
+    --core--color-feedback-warning-w060: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s060));
+    --core--color-feedback-warning-w070: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s070));
+    --core--color-feedback-warning-w080: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s080));
+    --core--color-feedback-warning-w090: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s090));
+    --core--color-feedback-warning-w095: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s095));
+    --core--color-feedback-warning-w099: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s099));
+    --core--color-feedback-warning-w100: --chgLight(var(--seed--color-feedback-warning), var(--util--color-ramp-s100));
+    /* Error */
+    --core--color-feedback-error-e000: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s000));
+    --core--color-feedback-error-e010: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s010));
+    --core--color-feedback-error-e020: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s020));
+    --core--color-feedback-error-e030: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s030));
+    --core--color-feedback-error-e040: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s040));
+    --core--color-feedback-error-e050: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s050));
+    --core--color-feedback-error-e060: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s060));
+    --core--color-feedback-error-e070: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s070));
+    --core--color-feedback-error-e080: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s080));
+    --core--color-feedback-error-e090: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s090));
+    --core--color-feedback-error-e095: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s095));
+    --core--color-feedback-error-e099: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s099));
+    --core--color-feedback-error-e100: --chgLight(var(--seed--color-feedback-error), var(--util--color-ramp-s100));
+    /* Info */
+    --core--color-feedback-info-i000: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s000));
+    --core--color-feedback-info-i010: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s010));
+    --core--color-feedback-info-i020: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s020));
+    --core--color-feedback-info-i030: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s030));
+    --core--color-feedback-info-i040: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s040));
+    --core--color-feedback-info-i050: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s050));
+    --core--color-feedback-info-i060: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s060));
+    --core--color-feedback-info-i070: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s070));
+    --core--color-feedback-info-i080: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s080));
+    --core--color-feedback-info-i090: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s090));
+    --core--color-feedback-info-i095: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s095));
+    --core--color-feedback-info-i099: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s099));
+    --core--color-feedback-info-i100: --chgLight(var(--seed--color-feedback-info), var(--util--color-ramp-s100));
+
+    /** Fonts ----------------------------------------------------------------------- */
+    /* Font families */
+    --core--font-family-body: var(--seed--font-body), sans-serif;
+    --core--font-family-heading: var(--seed--font-heading), sans-serif;
+    /* Font sizes */
+    --core--font-size-xs: --scaleFontSize(var(--seed--font-size), -2, var(--seed--font-size-scale, 1.25));
+    --core--font-size-sm: --scaleFontSize(var(--seed--font-size), -1, var(--seed--font-size-scale, 1.25));
+    --core--font-size-md: --scaleFontSize(var(--seed--font-size), 0, var(--seed--font-size-scale, 1.25));
+    --core--font-size-lg: --scaleFontSize(var(--seed--font-size), 1, var(--seed--font-size-scale, 1.25));
+    --core--font-size-xl: --scaleFontSize(var(--seed--font-size), 2, var(--seed--font-size-scale, 1.25));
+    --core--font-size-2xl: --scaleFontSize(var(--seed--font-size), 3, var(--seed--font-size-scale, 1.25));
+    --core--font-size-3xl: --scaleFontSize(var(--seed--font-size), 4, var(--seed--font-size-scale, 1.25));
+    --core--font-size-4xl: --scaleFontSize(var(--seed--font-size), 5, var(--seed--font-size-scale, 1.25));
+    --core--font-size-5xl: --scaleFontSize(var(--seed--font-size), 6, var(--seed--font-size-scale, 1.25));
+    --core--font-size-6xl: --scaleFontSize(var(--seed--font-size), 7, var(--seed--font-size-scale, 1.25));
+    --core--font-size-7xl: --scaleFontSize(var(--seed--font-size), 8, var(--seed--font-size-scale, 1.25));
+    --core--font-size-8xl: --scaleFontSize(var(--seed--font-size), 9, var(--seed--font-size-scale, 1.25));
+}

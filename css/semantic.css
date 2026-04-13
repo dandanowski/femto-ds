@@ -1,0 +1,67 @@
+:root {
+
+    /* Colors */
+    --sem--color-primary: var(--core--color-ui-primary-p050);
+    --sem--color-on-primary: var(--core--color-ui-primary-p095);
+    --sem--color-primary-container: var(--core--color-ui-primary-p080);
+    --sem--color-on-primary-container: var(--core--color-ui-primary-p040);
+
+    --sem--color-secondary: var(--core--color-ui-secondary-s040);
+    --sem--color-on-secondary: var(--core--color-ui-secondary-s095);
+    --sem--color-secondary-container: var(--core--color-ui-secondary-s080);
+    --sem--color-on-secondary-container: var(--core--color-ui-secondary-s040);
+
+    --sem--color-tertiary: var(--core--color-ui-tertiary-t050);
+    --sem--color-on-tertiary: var(--core--color-ui-tertiary-t095);
+    --sem--color-tertiary-container: var(--core--color-ui-tertiary-t080);
+    --sem--color-on-tertiary-container: var(--core--color-ui-tertiary-t040);
+
+    --sem--color-success: var(--core--color-feedback-success-s050);
+    --sem--color-on-success: var(--core--color-feedback-success-s095);
+    --sem--color-success-container: var(--core--color-feedback-success-s080);
+    --sem--color-on-success-container: var(--core--color-feedback-success-s040);
+
+    --sem--color-warning: var(--core--color-feedback-warning-w050);
+    --sem--color-on-warning: var(--core--color-feedback-warning-w095);
+    --sem--color-warning-container: var(--core--color-feedback-warning-w080);
+    --sem--color-on-warning-container: var(--core--color-feedback-warning-w010);
+
+    --sem--color-error: var(--core--color-feedback-error-e050);
+    --sem--color-on-error: var(--core--color-feedback-error-e095);
+    --sem--color-error-container: var(--core--color-feedback-error-e080);
+    --sem--color-on-error-container: var(--core--color-feedback-error-e010);
+
+    --sem--color-info: var(--core--color-feedback-info-i050);
+    --sem--color-on-info: var(--core--color-feedback-info-i095);
+    --sem--color-info-container: var(--core--color-feedback-info-i080);
+    --sem--color-on-info-container: var(--core--color-feedback-info-i010);
+
+    --sem--color-surface: var(--core--color-ui-neutral-n050);
+    --sem--color-on-surface: var(--core--color-ui-neutral-n095);
+    --sem--color-surface-container: var(--core--color-ui-neutral-n080);
+    --sem--color-on-surface-container: var(--core--color-ui-neutral-n010);
+
+    --sem--color-outline: var(--core--color-ui-neutral-n050);
+    --sem--color-outline-variant: var(--core--color-ui-neutral-n080);
+
+    /* Typography */
+    --sem--typo-display-lg: var(--util--font-weight-light) var(--core--font-size-8xl) var(--core--font-family-heading);
+    --sem--typo-display-md: var(--util--font-weight-light) var(--core--font-size-7xl) var(--core--font-family-heading);
+    --sem--typo-display-sm: var(--util--font-weight-light) var(--core--font-size-6xl) var(--core--font-family-heading);
+
+    --sem--typo-headline-lg: var(--util--font-weight-bold) var(--core--font-size-5xl) var(--core--font-family-heading);
+    --sem--typo-headline-md: var(--util--font-weight-bold) var(--core--font-size-4xl) var(--core--font-family-heading);
+    --sem--typo-headline-sm: var(--util--font-weight-bold) var(--core--font-size-3xl) var(--core--font-family-heading);
+
+    --sem--typo-title-lg: var(--util--font-weight-medium) var(--core--font-size-2xl) var(--core--font-family-body);
+    --sem--typo-title-md: var(--util--font-weight-medium) var(--core--font-size-lg) var(--core--font-family-body);
+    --sem--typo-title-sm: var(--util--font-weight-medium) var(--core--font-size-md) var(--core--font-family-body);
+
+    --sem--typo-body-lg: var(--util--font-weight-regular) var(--core--font-size-lg) var(--core--font-family-body);
+    --sem--typo-body-md: var(--util--font-weight-regular) var(--core--font-size-md) var(--core--font-family-body);
+    --sem--typo-body-sm: var(--util--font-weight-regular) var(--core--font-size-sm) var(--core--font-family-body);
+
+    --sem--typo-label-lg: var(--util--font-weight-bold) var(--core--font-size-md) var(--core--font-family-body);
+    --sem--typo-label-md: var(--util--font-weight-bold) var(--core--font-size-sm) var(--core--font-family-body);
+    --sem--typo-label-sm: var(--util--font-weight-bold) var(--core--font-size-xs) var(--core--font-family-body);
+}

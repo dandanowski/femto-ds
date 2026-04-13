@@ -1,0 +1,16 @@
+:root {
+    --seed--color-ui-primary: green;
+    --seed--color-ui-secondary: blue;
+    --seed--color-ui-tertiary: white;
+    --seed--color-ui-neutral: #d2d1d1;
+    --seed--color-feedback-success: green;
+    --seed--color-feedback-warning: yellow;
+    --seed--color-feedback-error: red;
+    --seed--color-feedback-info: blue;
+    --seed--font-size: 18px;
+    --seed--font-size-scale: 1.25;
+    --seed--font-body: Transport;
+    --seed--font-heading: Transport Heavy;
+    --seed--spacing: 8px;
+    --seed--shape-radius: 8px;
+}
