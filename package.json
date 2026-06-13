@@ -1,0 +1,23 @@
+{
+  "name": "femto-ds",
+  "version": "1.0.0",
+  "description": "Very small design system starter pack",
+  "homepage": "https://github.com/dandanowski/femto-ds#readme",
+  "bugs": {
+    "url": "https://github.com/dandanowski/femto-ds/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandanowski/femto-ds.git"
+  },
+  "license": "ISC",
+  "author": "Dan Danowski <dan.danowski@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}
